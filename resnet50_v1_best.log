@@ -1,0 +1,155 @@
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=8, num_workers=60, rec_train='/media/ramdisk/rec/train.rec', rec_train_idx='/media/ramdisk/rec/train.idx', rec_val='/media/ramdisk/rec/val.rec', rec_val_idx='/media/ramdisk/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=True, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=8, num_workers=60, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=True, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=8, num_workers=60, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=8, num_workers=60, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=128, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=False, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+[Epoch 0] training: accuracy=0.000781
+[Epoch 0] speed: 144 samples/sec	time cost: 38.004940
+[Epoch 0] validation: err-top1=1.000000 err-top5=0.997664
+[Epoch 1] training: accuracy=0.381250
+[Epoch 1] speed: 150 samples/sec	time cost: 34.429181
+[Epoch 1] validation: err-top1=0.878505 err-top5=0.000000
+[Epoch 2] training: accuracy=0.473438
+[Epoch 2] speed: 169 samples/sec	time cost: 31.138289
+[Epoch 2] validation: err-top1=0.488318 err-top5=0.000000
+[Epoch 3] training: accuracy=0.478646
+[Epoch 3] speed: 165 samples/sec	time cost: 31.562519
+[Epoch 3] validation: err-top1=0.488318 err-top5=0.000000
+[Epoch 4] training: accuracy=0.479167
+[Epoch 4] speed: 160 samples/sec	time cost: 32.451183
+[Epoch 4] validation: err-top1=0.488318 err-top5=0.000000
+[Epoch 5] training: accuracy=0.479167
+[Epoch 5] speed: 153 samples/sec	time cost: 33.300236
+[Epoch 5] validation: err-top1=0.488318 err-top5=0.000000
+[Epoch 6] training: accuracy=0.479427
+[Epoch 6] speed: 159 samples/sec	time cost: 32.349789
+[Epoch 6] validation: err-top1=0.488318 err-top5=0.000000
+[Epoch 7] training: accuracy=0.476562
+[Epoch 7] speed: 161 samples/sec	time cost: 32.126776
+[Epoch 7] validation: err-top1=0.434579 err-top5=0.000000
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float16', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet50_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1b', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1b', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+[Epoch 0] training: accuracy=0.001563
+[Epoch 0] speed: 108 samples/sec	time cost: 48.093635
+[Epoch 0] validation: err-top1=0.988318 err-top5=0.915888
+[Epoch 1] training: accuracy=0.418229
+[Epoch 1] speed: 122 samples/sec	time cost: 39.623547
+[Epoch 1] validation: err-top1=0.904206 err-top5=0.000000
+Namespace(batch_norm=False, batch_size=64, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+[Epoch 0] training: accuracy=0.001823
+[Epoch 0] speed: 103 samples/sec	time cost: 50.517532
+[Epoch 0] validation: err-top1=0.990654 err-top5=0.904206
+[Epoch 1] training: accuracy=0.403906
+[Epoch 1] speed: 114 samples/sec	time cost: 41.598917
+[Epoch 1] validation: err-top1=0.488318 err-top5=0.000000
+[Epoch 2] training: accuracy=0.454167
+[Epoch 2] speed: 115 samples/sec	time cost: 41.955848
+[Epoch 2] validation: err-top1=0.532710 err-top5=0.000000
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=224, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.4, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 115.514011 samples/sec	accuracy=0.051250	lr=0.000196
+[Epoch 0] training: accuracy=0.120833
+[Epoch 0] speed: 126 samples/sec	time cost: 39.517287
+[Epoch 0] validation: err-top1=0.514019 err-top5=0.390187
+Epoch[1] Batch [49]	Speed: 144.001501 samples/sec	accuracy=0.464062	lr=0.080196
+[Epoch 1] training: accuracy=0.461719
+[Epoch 1] speed: 156 samples/sec	time cost: 29.325631
+[Epoch 1] validation: err-top1=0.544393 err-top5=0.000000
+Epoch[2] Batch [49]	Speed: 136.751668 samples/sec	accuracy=0.463438	lr=0.160196
+[Epoch 2] training: accuracy=0.463281
+[Epoch 2] speed: 148 samples/sec	time cost: 30.619423
+[Epoch 2] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[3] Batch [49]	Speed: 149.966981 samples/sec	accuracy=0.472500	lr=0.240196
+[Epoch 3] training: accuracy=0.471615
+[Epoch 3] speed: 157 samples/sec	time cost: 29.304271
+[Epoch 3] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[4] Batch [49]	Speed: 147.569530 samples/sec	accuracy=0.470625	lr=0.320196
+[Epoch 4] training: accuracy=0.472135
+[Epoch 4] speed: 159 samples/sec	time cost: 28.853393
+[Epoch 4] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[5] Batch [49]	Speed: 147.722931 samples/sec	accuracy=0.474062	lr=0.400000
+[Epoch 5] training: accuracy=0.474219
+[Epoch 5] speed: 158 samples/sec	time cost: 29.027081
+[Epoch 5] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[6] Batch [49]	Speed: 146.816962 samples/sec	accuracy=0.477187	lr=0.399925
+[Epoch 6] training: accuracy=0.474479
+[Epoch 6] speed: 159 samples/sec	time cost: 29.013329
+[Epoch 6] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[7] Batch [49]	Speed: 148.332561 samples/sec	accuracy=0.477812	lr=0.399701
+[Epoch 7] training: accuracy=0.478385
+[Epoch 7] speed: 159 samples/sec	time cost: 28.927787
+[Epoch 7] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[8] Batch [49]	Speed: 148.969959 samples/sec	accuracy=0.479687	lr=0.399328
+[Epoch 8] training: accuracy=0.478906
+[Epoch 8] speed: 160 samples/sec	time cost: 28.693343
+[Epoch 8] validation: err-top1=0.485981 err-top5=0.000000
+Epoch[9] Batch [49]	Speed: 150.920769 samples/sec	accuracy=0.482187	lr=0.398806
+[Epoch 9] training: accuracy=0.479687
+[Epoch 9] speed: 161 samples/sec	time cost: 29.334689
+[Epoch 9] validation: err-top1=0.488318 err-top5=0.000000
+Epoch[10] Batch [49]	Speed: 148.539389 samples/sec	accuracy=0.475625	lr=0.398135
+[Epoch 10] training: accuracy=0.478125
+[Epoch 10] speed: 160 samples/sec	time cost: 28.821696
+[Epoch 10] validation: err-top1=0.492991 err-top5=0.000000
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=True, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.1, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.1, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 89.160736 samples/sec	accuracy=0.005313	lr=0.000049
+[Epoch 0] training: accuracy=0.012500
+[Epoch 0] speed: 95 samples/sec	time cost: 51.285677
+[Epoch 0] validation: err-top1=0.908879 err-top5=0.754673
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.1, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 85.821800 samples/sec	accuracy=0.354375	lr=0.000049
+[Epoch 0] training: accuracy=0.406510
+[Epoch 0] speed: 91 samples/sec	time cost: 51.997494
+[Epoch 0] validation: err-top1=0.233645 err-top5=0.000000
+Epoch[1] Batch [49]	Speed: 105.401850 samples/sec	accuracy=0.210625	lr=0.020049
+[Epoch 1] training: accuracy=0.207031
+[Epoch 1] speed: 109 samples/sec	time cost: 40.348066
+[Epoch 1] validation: err-top1=0.801402 err-top5=1.000000
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.0001, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.0001, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.0001, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 86.541040 samples/sec	accuracy=0.335000	lr=0.001000
+[Epoch 0] training: accuracy=0.343750
+[Epoch 0] speed: 91 samples/sec	time cost: 54.257367
+[Epoch 0] validation: err-top1=0.488318 err-top5=0.000000
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.0001, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.0001, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 89.175802 samples/sec	accuracy=0.329688	lr=0.001000
+Namespace(batch_norm=False, batch_size=16, crop_ratio=0.875, data_dir='~/.mxnet/datasets/imagenet', dtype='float32', input_size=336, label_smoothing=False, last_gamma=True, log_interval=50, logging_file='resnet50_v1_best.log', lr=0.0001, lr_decay=0.1, lr_decay_epoch='40,60', lr_decay_period=0, lr_mode='cosine', mixup=False, mixup_alpha=0.2, mixup_off_epoch=0, mode='hybrid', model='resnet101_v1d', momentum=0.9, no_wd=True, num_epochs=120, num_gpus=4, num_workers=16, rec_train='~/.mxnet/datasets/imagenet/rec/train.rec', rec_train_idx='~/.mxnet/datasets/imagenet/rec/train.idx', rec_val='~/.mxnet/datasets/imagenet/rec/val.rec', rec_val_idx='~/.mxnet/datasets/imagenet/rec/val.idx', resume_epoch=0, resume_params='', resume_states='', save_dir='params_resnet50_v1_best', save_frequency=10, use_pretrained=True, use_rec=False, use_se=False, warmup_epochs=5, warmup_lr=0.0, wd=0.0001)
+Epoch[0] Batch [49]	Speed: 82.426539 samples/sec	accuracy=0.422500	lr=0.001000
+[Epoch 0] training: accuracy=0.428761
+[Epoch 0] speed: 87 samples/sec	time cost: 48.009114
+[Epoch 0] validation: err-top1=0.507812 err-top5=0.000000
+Epoch[1] Batch [49]	Speed: 106.678711 samples/sec	accuracy=0.485625	lr=0.001000
+[Epoch 1] training: accuracy=0.479608
+[Epoch 1] speed: 110 samples/sec	time cost: 39.406170
+[Epoch 1] validation: err-top1=0.507812 err-top5=0.000000
+Epoch[2] Batch [49]	Speed: 108.497665 samples/sec	accuracy=0.476250	lr=0.001000
+[Epoch 2] training: accuracy=0.479343
+[Epoch 2] speed: 111 samples/sec	time cost: 38.883706
+[Epoch 2] validation: err-top1=0.507812 err-top5=0.000000
+Epoch[3] Batch [49]	Speed: 100.538281 samples/sec	accuracy=0.476250	lr=0.001000
+[Epoch 3] training: accuracy=0.479608
+[Epoch 3] speed: 104 samples/sec	time cost: 41.968637
+[Epoch 3] validation: err-top1=0.507812 err-top5=0.000000
+Epoch[4] Batch [49]	Speed: 102.433750 samples/sec	accuracy=0.485938	lr=0.001000
+[Epoch 4] training: accuracy=0.479343
+[Epoch 4] speed: 106 samples/sec	time cost: 40.691823
+[Epoch 4] validation: err-top1=0.507812 err-top5=0.000000
+Epoch[5] Batch [49]	Speed: 102.950849 samples/sec	accuracy=0.481875	lr=0.001000
+[Epoch 5] training: accuracy=0.479343
+[Epoch 5] speed: 106 samples/sec	time cost: 41.249474
+[Epoch 5] validation: err-top1=0.507812 err-top5=0.000000
+Epoch[6] Batch [49]	Speed: 105.232764 samples/sec	accuracy=0.481875	lr=0.001000
+[Epoch 6] training: accuracy=0.479343
+[Epoch 6] speed: 108 samples/sec	time cost: 39.966716
+[Epoch 6] validation: err-top1=0.507812 err-top5=0.000000

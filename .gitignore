@@ -1,0 +1,10 @@
+
+\.idea/
+
+\.pytest_cache/
+
+__pycache__/
+
+params_resnet50_v1_best/
+
+output/
