@@ -184,6 +184,12 @@ class ResNetV1b(HybridBlock):
                 self.layer4 = self._make_layer(4, block, 512, layers[3], strides=1,
                                                avg_down=avg_down, norm_layer=norm_layer,
                                                last_gamma=last_gamma, use_dcn=True)
+        self.avgpool = nn.GlobalAvgPool2D()
+        self.flat = nn.Flatten()
+        self.drop = None
+        if final_drop > 0.0:
+            self.drop = nn.Dropout(final_drop)
+        self.fc = nn.Dense(in_units=512 * block.expansion, units=classes)
 
     def _make_layer(self, stage_index, block, planes, blocks, strides=1, dilation=1,
                     avg_down=False, norm_layer=None, last_gamma=False, use_dcn=False):
@@ -270,6 +276,6 @@ def resnet101_v1d(pretrained=False, root='~/.mxnet/models', ctx=cpu(0), **kwargs
                       name_prefix='resnetv1d_', **kwargs)
     if pretrained:
         from gluoncv.model_zoo.model_store import get_model_file
-        model.load_parameters(get_model_file('resnet%d_v%dd' % (101, 1),
-                                             tag=pretrained, root=root), allow_missing=True, ignore_extra=True, ctx=ctx)
+        model.load_parameters(get_model_file('resnet%d_v%dd' % (101, 1), root=root),
+                              allow_missing=True, ignore_extra=True, ctx=ctx)
     return model

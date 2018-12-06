@@ -16,7 +16,8 @@ from mxnet import gluon
 import time, logging
 from gluoncv.utils import LRScheduler
 
-
+import warnings
+warnings.filterwarnings('ignore')
 class TestDataset(Dataset):
     def __init__(self, train_root, test_root, transforms=None):
         self.train_imgs = [x.strip().split('\t')[0] for x in open(os.path.join(train_root, "train.txt"), "rt")]
@@ -112,8 +113,9 @@ def batch_fn(batch, ctx):
 
 
 def get_net():
-    from gluoncv.model_zoo import resnet50_v1b
-    net = resnet50_v1b(pretrained=True, classes=1000, dilated=False, use_global_stats = True)
+    from models.resnetv1d import resnet101_v1d
+    from gluoncv.model_zoo import resnet101_v1b
+    net = resnet101_v1b(pretrained=True, classes=1000, dilated=False, use_global_stats = True)
     net.fc = mx.gluon.nn.Dense(units=5)
     return net
 
@@ -135,10 +137,14 @@ def train(net, dataset_train, dataset_val, train_metric, metric_val, batch_size=
         ctx = [ctx]
     net.initialize(mx.init.MSRAPrelu(), ctx=ctx)
     net.collect_params().reset_ctx(ctx)
-    train_loader = DataLoader(dataset_train, batch_size=batch_size, num_workers=8,  shuffle=True, last_batch="discard")
-    val_loader = DataLoader(dataset_val, batch_size=16, num_workers=8, shuffle=True, last_batch="discard")
+    # train_loader = DataLoader(dataset_train, batch_size=batch_size, num_workers=8,  shuffle=True, last_batch="discard")
+    # val_loader = DataLoader(dataset_val, batch_size=16, num_workers=8, shuffle=True, last_batch="discard")
+    from dataloader import DataLoader as DataLoaderThread
+    train_loader = DataLoaderThread(dataset_train, batch_size=batch_size, shuffle=True, last_batch="discard")
+    val_loader = DataLoaderThread(dataset_val, batch_size=16, shuffle=False)
+
     lr_scheduler = LRScheduler("step", baselr=1e-3, niters=len(train_loader), nepochs=100,
-                               step=[14, 24], step_factor=.1,
+                               step=[3, 5], step_factor=.1,
                                warmup_epochs=0)
 
     trainer = mx.gluon.Trainer(net.collect_params(),
@@ -150,7 +156,7 @@ def train(net, dataset_train, dataset_val, train_metric, metric_val, batch_size=
                                )
     L = gluon.loss.SoftmaxCrossEntropyLoss()
 
-    for epoch in range(100):
+    for epoch in range(40):
         tic = time.time()
         train_metric.reset()
         btic = time.time()
@@ -189,7 +195,7 @@ def train(net, dataset_train, dataset_val, train_metric, metric_val, batch_size=
         logger.info('[Epoch %d] speed: %d samples/sec\ttime cost: %f' % (epoch, throughput, time.time() - tic))
         logger.info('[Epoch %d] validation: err-top1=%f ' % (epoch, val_accu))
 
-        net.save_parameters('%s/imagenet-%s-%d-%.4f.params' % (save_dir, "resnet50", epoch, val_accu))
+        net.save_parameters('%s/imagenet-%s-%d-%d-%.4f.params' % (save_dir, "resnet50", epoch, i,  val_accu))
 
 
 def inference(net: gluoncv.model_zoo.ResNetV1b, dataset, gpu_id=8):

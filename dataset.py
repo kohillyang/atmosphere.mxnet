@@ -58,6 +58,8 @@ class ATDataset(object):
 
 
 if __name__ == '__main__':
-    da = ATDataset()
+    da = ATDataset(is_train=True)
+    da2 = ATDataset(is_train=False)
+    print(len(da), len(da2))
     for image, label in da:
         print(label)
